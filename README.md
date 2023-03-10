@@ -1,2 +1,2 @@
 # myfile
-My projek
+My project
