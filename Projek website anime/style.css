@@ -1,0 +1,139 @@
+body, html {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    height: 100%;
+    position: center !important;
+}
+.content {
+    padding: 20px;
+    margin-bottom: -60px;
+    text-align: center;
+
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.header {
+    font-size: 20px;
+    background-color: #333;
+    color: red;
+    padding: 5px;
+    text-align: center;
+    font-family: fantasy;
+}
+#tanggal {
+    background-color: grey;
+    opacity: 0.6;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#tulisanpoin {
+    font-size: 30px;
+    font-weight: bold;
+}
+#tulisan {
+    padding-left: 45px;
+    font-size: 18px;
+}
+#img {
+    max-width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: center;
+}
+form {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+.contact-item {
+    display:inline-flex;
+    align-items: center;
+    margin-inline: 10px;
+}
+.contact-item img {
+    width: 30px;
+}
+
+@media screen and (min-width: 780px) {
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+    }
+    #img {
+        width: 60%;
+        left: 20%;
+        position: relative;
+    }
+    #tulisanpoin {
+        padding-left: 170px; 
+    }
+    #tulisan {
+        padding-left: 180px;
+        padding-right: 160px;
+        position: relative;
+    }
+    img{
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+    #tanggal {
+        background-color: grey;
+        opacity: 0.6;
+        margin-left: 200px !important;
+        margin-right: 200px !important;
+    }
+    label, input, textarea, button {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 18%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #tulisanpoin {
+        padding-left: 280px; 
+    }
+    #tulisan {
+        padding-left: 280px; 
+        padding-right: 250px;
+    }
+    #tanggal {
+        background-color: grey;
+        opacity: 0.6;
+        margin-left: 320px !important;
+        margin-right: 320px !important;
+    }
+    label, input, textarea, button {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 18%;
+    }
+}
