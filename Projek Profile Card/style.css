@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border: 4px solid black;
+    border-radius: 1em;
+    width: 50%;
+    height: 50vh;
+}
+
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 26vh;
+    overflow: hidden;
+    border: 8px solid white;
+    border-radius: 1em 1em 0 0;
+}
+
+.img-container {
+    position: absolute;
+    margin-top: -10vh;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.txt {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
