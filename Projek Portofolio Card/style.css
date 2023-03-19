@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: solid black;
+    width: 50%;
+    height: 20vh;
+}
+
+.txt {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+}
+
+#sosmed{}
