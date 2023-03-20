@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     height: 100%;
 }
@@ -13,36 +14,26 @@ body {
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    border: 4px solid black;
+    border: .25em solid black;
     border-radius: 1em;
-    width: 50%;
-    height: 50vh;
+    width: min(50%,300px);
 }
-
 
 .img {
-    position: relative;
     width: 100%;
-    height: 26vh;
-    overflow: hidden;
-    border: 8px solid white;
-    border-radius: 1em 1em 0 0;
+    padding-top: .5em;
 }
 
-.img-container {
-    position: absolute;
-    margin-top: -10vh;
+.img img{
+    width: min(60%, 200px);
+    border-radius: 50%;
 }
 
-.img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+h2 {
+    padding-top: .5em;
 }
 
-
-
-.txt {
+#text {
     font-size: 1em;
     margin-top: 5px;
 }
