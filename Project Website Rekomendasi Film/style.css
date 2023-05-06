@@ -64,7 +64,7 @@ i{
 
 .mainimg{
     width: min(80%,800px);
-    height: 60vh;
+    height: min(50vh,380px);
     object-fit: cover;
     position: relative;
     left: 50%;
@@ -83,7 +83,7 @@ main{
 
 iframe{
     width: 80%;
-    height: 50vh;
+    height: 250px;
     position: relative;
     left: 50%;
     transform: translatex(-50%);
