@@ -11,3 +11,5 @@ My Project List :
     ini adalah projek ke 4 saya, projek ini berisi tentang profile sederhana saya yang disuguhkan dalam bentuk card sederhana. dan ada beberapa kontak atau media sosial yang bisa dihubungi dan di kunjungi
 5. Project Website Rekomendasi Film
     ini adalah projek ke 5 saya, projek ini adalah website ke 2 saya berisi tentang list rekomendasi film sci-fi
+6. Project Shop Website
+    ini adalah projek ke 6 saya, projek ini adalah website ke 3 saya yang berisi tentang website shop sederhana tanpa menggunakan CSS sama sekali. projek ini adalah latihan dari salah satu video di youtube.
