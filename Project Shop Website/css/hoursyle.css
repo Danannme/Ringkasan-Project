@@ -2,9 +2,9 @@ header ul {
     position: relative;
     right: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
-    max-width: 550px;
+    max-width: 250px;
 }
 
 header ul li a {
@@ -18,11 +18,4 @@ header ul li a {
 
 header ul li a:hover {
     color: gray;
-}
-
-table, tr, th, td, caption {
-    border: 1px solid black;
-    font-family: 'Courier New', Courier, monospace;
-    border-collapse: collapse;
-    padding: 0.5rem;
 }
