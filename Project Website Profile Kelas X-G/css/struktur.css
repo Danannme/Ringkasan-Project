@@ -300,8 +300,6 @@ h3, p {
 }
 
 .pengurus .box {
-    /* width: min(10rem, 24vw);
-    height: min(10rem, 24vw); */
     width: clamp(7rem, 24vw, 10rem);
     height: clamp(9rem, 26vw, 12rem);
 }
