@@ -13,3 +13,5 @@ My Project List :
     >ini adalah projek ke 5 saya, projek ini adalah website ke 2 saya berisi tentang list rekomendasi film sci-fi
 6. Project Shop Website
     >ini adalah projek ke 6 saya, projek ini adalah website ke 3 saya yang berisi tentang website shop sederhana tanpa menggunakan CSS sama sekali. projek ini adalah latihan dari salah satu video di youtube.
+7. Project Website Profile Kelas
+    >Projct ini berisikan tentang profile kelas SMA saya kelas X-G, isi nya tentang kelas seperti deskripsi, struktur kelas dan galeri atau foto-foto dari kelas tersebut
